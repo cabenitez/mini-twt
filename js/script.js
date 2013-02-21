@@ -9,12 +9,12 @@ $(document).ready(function(){
 	});
 	// get info usuario
 	if ($('#usuario').size()) {
-		//getUsuario();
-		//getTweetsUsuario();
-		//getSeguidores();
-		//getSiguiendo();
-		//getUsuarios();
-		//getTweets('default');
+		getUsuario();
+		getTweetsUsuario();
+		getSeguidores();
+		getSiguiendo();
+		getUsuarios();
+		getTweets('default');
 	};
 	// seguir a
 	$(document).on('click', '.usuarios', function(e){

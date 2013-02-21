@@ -1,5 +1,5 @@
-<?
-	//include('getLogin.php');
+<?php
+	include('getLogin.php');
 ?>
 <!DOCTYPE html>
 <html>
